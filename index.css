@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 1200px;
   padding: 0;
   font-family: "OpenSans", sans-serif;
   font-size: 1em;
@@ -31,13 +32,16 @@ body {
   width: 100%;
   overflow: auto;
   height: 500px;
+  background-image: url('./header/header4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-left {
   height: inherit;
   width: 35%;
   float: left;
-  background-color: rgba(90,90,90, 1);
+  background-color: rgba(40,40,40, 0.8);
   color: white;
   padding: 30px;
   box-sizing: border-box;
@@ -47,9 +51,6 @@ body {
   width: 65%;
   float: left;
   height: inherit;
-  background-image: url('./header/header4.png');
-  background-size: cover;
-  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -66,19 +67,21 @@ body {
 
 .banner-title {
   position: absolute;
-  bottom: 70px;
-  left: 29px;
+  bottom: 50px;
+  right: 30px;
   font-size: 4em;
   font-weight: bold;
-  color: #333;
+  color: #222;
+  /*color: white;*/
 }
 
 .banner-subtitle {
   position: absolute;
   bottom: 30px;
-  left: 30px;
-  font-size: 2em;
+  right: 30px;
+  font-size: 1.5em;
   color: #333;
+  /*color: white;*/
 }
 
 .body {
