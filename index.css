@@ -73,7 +73,6 @@ body {
   font-size: 4em;
   font-weight: bold;
   color: #222;
-  /*color: white;*/
 }
 
 .banner-subtitle {
@@ -82,7 +81,6 @@ body {
   right: 30px;
   font-size: 1.5em;
   color: #333;
-  /*color: white;*/
 }
 
 .body {
@@ -108,7 +106,6 @@ body {
 .value {
   padding: 30px;
   color: white;
-  /*height: 293px;*/
   box-sizing: border-box;
 }
 
@@ -191,7 +188,6 @@ body {
 }
 
 .capability_title {
-  /*text-align: center;*/
   margin: 0 0 10px 0;
   font-size: 1.2em;
   font-weight: bold;
